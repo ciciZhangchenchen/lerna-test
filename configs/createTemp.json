@@ -10,7 +10,7 @@
       "react-native": ">= 0.59.0"
     },
     "scripts": {
-      "build": "tsc"
+      "buildts": "tsc"
     },
     "dependencies": {
       "package1": "0.0.1"

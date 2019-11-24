@@ -42,7 +42,7 @@ getReadline(`Please enter your package name, we will add a preset @cici/bbk- wit
       Object.keys(dependencies).forEach(de => {
         const cmd = `lerna add ${de} --scope ${packageJson.name}`
         console.log(`exce amd`.green, cmd)
-        child_process.spawnSync(`lerna add ${de} --scope ${packageJson.name}`)
+        child_process.execSync(`lerna add ${de} --scope ${packageJson.name}`)
       })
     }
     console.log(`✔ Create package success`.green)
