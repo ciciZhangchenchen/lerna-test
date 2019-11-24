@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "es6",
+      "moduleResolution": "node",
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": false,
+      "allowJs": false,
+      "noImplicitReturns": false,
+      "noUnusedParameters": false,
+      "baseUrl": ".",
+      "watch": false,
+      "skipLibCheck": true,
+      "lib": ["es6", "dom", "es2017"]
+    },
+    "exclude": [
+      "**/dist/",
+      "**/*.test.js",
+      "**/*.test.ts",
+      "babel.config.js"
+    ],
+    "compileOnSave": true
+  }
+  

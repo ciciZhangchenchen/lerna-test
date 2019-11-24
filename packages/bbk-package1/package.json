@@ -1,0 +1,1 @@
+{"name":"@cici/bbk-package1","version":"0.0.1","main":"dist/index.js","description":"Building block React Native bbk-package1","author":"Building block Design System","license":"Apache-2.0","peerDependencies":{"react":"^16.8.3","react-native":">= 0.59.0"},"scripts":{"buildts":"tsc"},"dependencies":{}}

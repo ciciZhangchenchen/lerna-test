@@ -1,0 +1,26 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "create": {
+      "homepage": "https://github.com/lerna/lerna",
+      "license": "MIT"
+    },
+    "publish": {
+      "publish": {
+        "allowBranch": "master"
+      },
+      "message": "chore(release): publish %s",
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
+    },
+    "bootstrap": {
+      "hoist": true,
+      "npmClientArgs": ["--no-package-lock"]      
+    }
+  },
+  "version": "independent"
+}
