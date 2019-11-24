@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "publish": "node scripts/publish.js",
+    "ls:publish": "node scripts/publish.js",
     "build": "lerna run buildts",
     "clear-build": "lerna exec -- rm -rf ./dist",
     "create": "node ./scripts/create.js"
