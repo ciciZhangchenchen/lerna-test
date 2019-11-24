@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "prepublish": "node scripts/prepublish.js",
+    "prepare": "node scripts/prepublish.js",
     "build": "lerna run buildts",
     "clear-build": "lerna exec -- rm -rf ./dist",
     "create": "node ./scripts/create.js"
